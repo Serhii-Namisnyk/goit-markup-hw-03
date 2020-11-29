@@ -216,6 +216,10 @@ img {
 .advantage {
   display: flex;
 }
+.advantage-item {
+  width: 270px;
+  height: 101px;
+}
 .advantage-item:not(:last-child) {
   margin-right: 30px;
 }
