@@ -52,12 +52,31 @@ img {
   background-color: #ffffff;
 }
 .conteiner {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header .conteiner {
+  display: flex;
+  align-items: center;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 /*================ heder decoration ==================*/
 
-.nav-link,
-.contacts-link {
+.nav-link {
   color: var(--title-text-color);
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contacts-link {
+  color: var(--primaru-text-color);
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 500;
@@ -74,10 +93,7 @@ img {
 .current {
   color: var(--accent-color);
 }
-.header {
-  display: flex;
-  align-items: center;
-}
+
 .navigation {
   display: flex;
   align-items: center;
@@ -87,6 +103,23 @@ img {
 }
 .contacts {
   display: flex;
+}
+
+.logo-nav {
+  margin-right: 93px;
+}
+.site-nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+.contacts {
+  margin-left: auto;
+}
+.contacts-item:not(:last-child) {
+  margin-right: 50px;
+}
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 /*================ end heder decoration ==================*/
@@ -114,6 +147,22 @@ img {
 /*================ end logo decotration ==================*/
 
 /*================ hero ==================*/
+.hero {
+  background-color: yellowgreen;
+}
+
+.hero .conteiner {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero .hero-title {
+  padding-top: 200px;
+  padding-bottom: 30px;
+}
+
 .hero-title {
   font-family: var(--main-font);
   font-style: normal;
@@ -125,15 +174,22 @@ img {
 }
 .hero-button {
   background-color: var(--accent-color);
+  border-radius: 4px;
   color: #ffffff;
   font-family: var(--main-font);
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
   letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  min-width: 200px;
+  height: 50px;
+  padding: 10px 32px;
+  margin-bottom: 200px;
 }
+
 /*================ end hero decoration ==================*/
 
 /*================ advantage ==================*/
@@ -156,6 +212,17 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
+.advantage {
+  display: flex;
+}
+.advantage-item:not(:last-child) {
+  margin-right: 30px;
+}
+.advantage-title {
+  margin-bottom: 10px;
+}
+
 /*================ end advantage ==================*/
 
 /*================ skils==================*/
@@ -169,11 +236,20 @@ img {
   line-height: 1.16;
   letter-spacing: 0.03em;
 }
+.skils {
+  display: flex;
+  justify-content: space-between;
+}
+.skils-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
 /*================ end skils==================*/
 
 /*================ our team ==================*/
 .section-team {
   background-color: #f5f4fa;
+  text-align: center;
 }
 
 .item-title,
@@ -187,15 +263,56 @@ img {
 }
 .item-title {
   font-weight: 500;
+  margin-bottom: 10px;
 }
 .item-text {
   font-weight: normal;
 }
+.team {
+  display: flex;
+}
+.team-item:not(:last-child) {
+  margin-right: 30px;
+}
+.team-title {
+  margin-bottom: 50px;
+}
+.team-wrapper {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
 
 /*================ end our team ==================*/
 
+/*================ our clients==================*/
+.clients-title {
+  margin-bottom: 50px;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.clients-list {
+  display: flex;
+}
+.clients-item {
+  width: 170px;
+  height: 90px;
+  border: 1px solid green;
+}
+.clients-item:not(:last-child) {
+  margin-right: 30px;
+}
 /*================ footer ==================*/
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2f303a;
   color: #ffffff;
 }
@@ -222,6 +339,14 @@ img {
 .footer-link:focus {
   color: var(--accent-color);
 }
+.footer-text {
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 /*================ end footer ==================*/
 
 /*================ portfolio buttons ==================*/
