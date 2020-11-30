@@ -148,7 +148,7 @@ img {
 
 /*================ hero ==================*/
 .hero {
-  background-color: yellowgreen;
+  background-color: #2f303a;
 }
 
 .hero .conteiner {
@@ -291,7 +291,7 @@ img {
 /*================ end our team ==================*/
 
 /*================ our clients==================*/
-.clients-title {
+/* .clients-title {
   margin-bottom: 50px;
   font-family: var(--main-font);
   font-style: normal;
@@ -312,7 +312,7 @@ img {
 }
 .clients-item:not(:last-child) {
   margin-right: 30px;
-}
+} */
 /*================ footer ==================*/
 .footer {
   padding-top: 60px;
