@@ -38,6 +38,8 @@ p {
 }
 img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 .list {
@@ -253,6 +255,9 @@ img {
 /*================ end skils==================*/
 
 /*================ our team ==================*/
+.team-img {
+  margin-bottom: 30px;
+}
 .section-team {
   background-color: #f5f4fa;
   text-align: center;
@@ -278,6 +283,7 @@ img {
 }
 .item-text {
   font-weight: normal;
+  margin-bottom: 30px;
 }
 .team {
   display: flex;
@@ -287,12 +293,6 @@ img {
 }
 .team-title {
   margin-bottom: 50px;
-}
-.team-wrapper {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 32px;
-  padding-right: 32px;
 }
 
 /*================ end our team ==================*/
@@ -421,7 +421,6 @@ img {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid #eeeeee;
 }
 .filter-item:nth-child(3n) {
   margin-right: 0px;
@@ -431,7 +430,10 @@ img {
 }
 
 .filter-wrapper {
-  margin: 20px 24px;
+  padding: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 /*================ end filter ==================*/
