@@ -85,7 +85,9 @@ img {
   letter-spacing: 0.02em;
 }
 .nav-link:hover,
-.nav-link:focus,
+.nav-link:focus {
+  color: var(--accent-color);
+}
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
@@ -391,6 +393,7 @@ img {
 /*================ end portfolio buttons ==================*/
 
 /*================  filter ==================*/
+
 .filter-title {
   color: var(--title-text-color);
   font-family: var(--main-font);
